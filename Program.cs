@@ -9,7 +9,7 @@ for (int i = 0; i < strings.Length; i++)
     if (strings[i].Length <= 3)
     {
         sum++;
- E   }
+    }
 }
 string[] res = new string[sum];
 int ind2 = 0;

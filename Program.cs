@@ -21,3 +21,4 @@ for (int i = 0; i < strings.Length; i++)
         ind2++;
     }
 }
+Console.WriteLine(string.Join(" ", res));

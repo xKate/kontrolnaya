@@ -3,3 +3,11 @@
 //либо задать на старте выполнения алгоритма.
 
 string[] strings = new string[3]{"5", "ggg", "agagagga"};
+int sum = 0;
+for (int i = 0; i < strings.Length; i++)
+{
+    if (strings[i].Length <= 3)
+    {
+        sum++;
+    }
+}
